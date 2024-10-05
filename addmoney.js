@@ -16,8 +16,13 @@ document.getElementById('total-balance').innerText = remain;
 
 //add to transection History
 
+const now = new Date();
+
+const currentDateTime = now.toLocaleString();
+
+
 const p = document.createElement('p')
-p.innerText = ` You have donated : ${donation} BDT in Noakhali Flood. Tk.balance:${remain} `
+p.innerText = ` You have donated : ${donation} BDT in Noakhali Flood. Tk.balance:${remain} at ${currentDateTime}`
 document.getElementById('transection-container').appendChild(p);
 
 })
@@ -39,8 +44,12 @@ const remain = getremainingmoney(donation,initialMoney) ;
 document.getElementById('total-balance').innerText = remain;
 
 console.log(remain);
+
+const now = new Date();
+
+const currentDateTime = now.toLocaleString();
 const p = document.createElement('p')
-p.innerText = ` You have donated : ${donation} BDT in Feni Flood. Tk.balance:${remain} `
+p.innerText = ` You have donated : ${donation} BDT in Feni Flood. Tk.balance:${remain} at ${currentDateTime} `
 document.getElementById('transection-container').appendChild(p);
 
 })
@@ -62,8 +71,13 @@ const remain = getremainingmoney(donation,initialMoney) ;
 document.getElementById('total-balance').innerText = remain;
 
 console.log(remain);
+
+const now = new Date();
+
+const currentDateTime = now.toLocaleString();
+
 const p = document.createElement('p')
-p.innerText = ` You have donated : ${donation} BDT in Quota movement. Tk.balance:${remain} `
+p.innerText = ` You have donated : ${donation} BDT in Quota movement. Tk.balance:${remain} at ${currentDateTime}`
 document.getElementById('transection-container').appendChild(p);
 
 })
