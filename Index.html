@@ -42,13 +42,14 @@
 <ul class="lg:flex lg:justify-around justify-center">
     <li class="mt-10"><Button class="bg-lime-300 px-8 py-3 text-xl rounded-md font-bold">Blog</Button></li>
     <li class="lg:flex mt-10"><div><img src="./B10A5-DOM-Quest-Build-and-Manipulate-main/assets/logo.png"></div><div><h1 class="text-xl font-bold mt-2 lg:ml-2">Donate Bangladesh</h1></div></li>
-    <li class="flex mt-10"><div><img src="./B10A5-DOM-Quest-Build-and-Manipulate-main/assets/coin.png" alt=""></div><div><p class="text-xl font-bold"><span>5500 </span>BDT</p></div></li>
+    <li class="flex mt-10"><div><img src="./B10A5-DOM-Quest-Build-and-Manipulate-main/assets/coin.png" alt=""></div><div><p class="text-xl font-bold"><span id="total-balance">100000 </span>BDT</p></div></li>
 </ul>
 
 </nav>
 
 
 </header>
+<main>
 
 <!--Button section-->
 <section class=" mt-24">
@@ -76,9 +77,9 @@
           <h2 class="card-title font-bold">Donate for Flood at Noakhali, Bangladesh</h2>
           <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
           <div class="card-actions flex flex-col">
-            <div class="w-full border rounded-lg outline-slate-600 opacity-55"><input type="text" placeholder="Write Donation Amount" class="px-8 py-4 text-sm rounded-md w-full border-1"></div>
+            <div class="w-full border rounded-lg outline-slate-600 opacity-55"><input type="text" placeholder="Write Donation Amount" class="px-8 py-4 text-sm rounded-md w-full border-1" id="input-money"></div>
             
-            <div class="w-full"><button class="bg-lime-300 px-8 py-4 text-xl rounded-md font-bold w-full">Donate Now</button></div>
+            <div class="w-full"><button class="bg-lime-300 px-8 py-4 text-xl rounded-md font-bold w-full" id="donate-btn">Donate Now</button></div>
           </div>
         
         </div>
@@ -129,10 +130,12 @@
       </div>
     </div>
 </section>
+</main>
 
 <footer class=" w-full h-36 bg-orange-100">
 
 
 </footer>
+<script src="addmoney.js"> </script>
 </body>
 </html> 
