@@ -36,22 +36,22 @@
 
 <body class="container-xl container-sm lexend-">
   <!--Header section-->
-  <header class="bg-orange-100 lg:h-32">
+  <header class="bg-orange-100 lg:h-32 fixed top-0 left-0 right-0">
 
-    <nav class="relative">
+    <nav class="">
 
-      <ul class="lg:flex lg:justify-around justify-center">
+      <ul class="lg:flex lg:justify-around text-center">
         <li class="mt-10"><Button class="bg-lime-300 px-8 py-3 text-xl rounded-md font-bold"><a href="./modal.html">Blog</a></Button></li>
-        <li class="lg:flex mt-10">
-          <div><img src="./B10A5-DOM-Quest-Build-and-Manipulate-main/assets/logo.png"></div>
+        <li class="lg:flex mt-10 justify-center">
+          <div><img src="./B10A5-DOM-Quest-Build-and-Manipulate-main/assets/logo.png" class="mx-auto"></div>
           <div>
             <h1 class="text-xl font-bold mt-2 lg:ml-2">Donate Bangladesh</h1>
           </div>
         </li>
         <li class="flex mt-10">
-          <div><img src="./B10A5-DOM-Quest-Build-and-Manipulate-main/assets/coin.png" alt=""></div>
+          <div><img src="./B10A5-DOM-Quest-Build-and-Manipulate-main/assets/coin.png" alt="" class=""></div>
           <div>
-            <p class="text-xl font-bold"><span id="total-balance">100000 </span>BDT</p>
+            <p class="text-xl font-bold "><span id="total-balance" class="">100000 </span>BDT</p>
           </div>
         </li>
       </ul>
@@ -63,7 +63,7 @@
   <main>
 
     <!--Button section-->
-    <section class=" mt-24">
+    <section class=" lg:mt-32 mt-72">
 
       <ul class=" flex justify-center gap-x-2">
 
@@ -109,7 +109,7 @@
                 <div class="modal-box">
                   <h3 class="text-3xl font-bold text-center">Congrats!</h3>
                   <p class="py-4 text-center">You have <br> <span class="text-lg font-bold">Succesfully</span> <br>
-                    donated total of <span id="shown">0</span> BDT for Noakhali</p>
+                    donated total of <img src="./B10A5-DOM-Quest-Build-and-Manipulate-main/assets/coin.png" class="mx-auto"><span id="shown">0</span> BDT for Noakhali</p>
                   <div class="modal-action">
                     <form method="dialog">
 
@@ -156,7 +156,7 @@
                   </form>
                   <h3 class="text-3xl font-bold text-center">Congrats!</h3>
                   <p class="py-4 text-center">You have <br> <span class="text-lg font-bold">Succesfully</span> <br>
-                    donated total of <span id="shown2">0</span> BDT for Feni</p>
+                    donated total of <img src="./B10A5-DOM-Quest-Build-and-Manipulate-main/assets/coin.png" class="mx-auto"><span id="shown2">0</span> BDT for Feni</p>
                 </div>
               </dialog>
 
@@ -199,7 +199,7 @@
                 <div class="modal-box">
                   <h3 class="text-3xl font-bold text-center">Congrats!</h3>
                   <p class="py-4 text-center">You have <br> <span class="text-lg font-bold">Succesfully</span> <br>
-                    donated total of <span id="shown3">0</span> BDT for Quota Morvement</p>
+                    donated total of <img src="./B10A5-DOM-Quest-Build-and-Manipulate-main/assets/coin.png" class="mx-auto"><span id="shown3">0</span> BDT for Quota Morvement</p>
                   <div class="modal-action">
                     <form method="dialog">
                       <!-- if there is a button in form, it will close the modal -->
