@@ -8,7 +8,7 @@ function addMoneybyid(id) {
 
     const input = document.getElementById(id).value;
     const inputNum = parseFloat(input);
-    if (isNaN(inputNum)) {
+    if (isNaN(inputNum) || input.match(/^-\d+$/)) {
         alert("Donation unsuccessful! Please Type a Number")
         return 0;
     }
@@ -25,7 +25,7 @@ function addMoneybyid2(id) {
 
     const input = document.getElementById(id).value;
     const inputNum = parseFloat(input);
-    if (isNaN(inputNum)) {
+    if (isNaN(inputNum) || input.match(/^-\d+$/)) {
         alert("Donation unsuccessful! Please Type a Number")
         return 0;
     }
@@ -44,7 +44,7 @@ function addMoneybyid3(id) {
 
     const input = document.getElementById(id).value;
     const inputNum = parseFloat(input);
-    if (isNaN(inputNum)) {
+    if (isNaN(inputNum) || input.match(/^-\d+$/)) {
         alert("Donation unsuccessful! Please Type a Number")
         return 0;
     }
